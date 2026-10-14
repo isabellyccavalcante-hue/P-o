@@ -12,11 +12,9 @@ h1{
     overflow: hidden;
 }
 
-
 /* ----------- CABECALHO ----------- */
-
 .home_cabecalho{
-    background-color: #581F18;
+    background-color: #4C2318;
     height: 120px;
     display: flex;
     justify-content: center;
@@ -24,64 +22,149 @@ h1{
 }
 
 .home_container{
-   /* background-color: aqua;*/
-    max-width: 1200px;/*Largura maxima 1200px*/
-    width: 95%;/*Largura 95%*/
+   background-color: #FDF8F8;
+    /* max-width: 1200px;Largura maxima 1200px */
+    /* width: 95%;Largura 95% */
     margin: 0 auto;
 }
+
+
+
 
 
 /* ----------- BANNER ----------- */
-
-.container{
-    /* background-color: aqua; */
-    max-width: 1200px;
-    width: 95%;
-    margin: 0 auto;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .home_banner{
-    width: 1193px;
-    height: 492px;
-    align-items: center;
+    background-color: #FDF8F8;
+}
 
-    }
+.box_texto_banner{
+    /* background-color: aquamarine; */
+    padding-inline: clamp(20px, 8.9vw, 170px);
 
 
-.banner_container {
+}
+
+/* .home_container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color ;
+} */
+
+.banner_container{
+    display: flex;
+    background-image: url("./img/image_688dc7.webp");
+
 }
 
+.img{
+    
 
-.imagem-banner 
-
+}
 .linha1{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 14px;
-    letter-spacing: 14em;
-    text-transform: uppercase;
     color: #E2C7A2;
-    font-weight: 300;
+    font: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .linha2{
-   font-size: 20px;
-   line-height: 98;
-   margin: 26px 0 28px;
-   letter-spacing: -.005em;
-   font-family: var(--display);
-   font-weight: 400;
-   text-wrap: balance;
+    font-size: 60px;
+    margin-bottom: 30px;
+    display: inline-block;
+    color: #4C2318;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .linha3{
-    
+    font-size: 18px;
+    color: #E2C7A2;
+    /* font-weight: 300; */
+    margin-bottom: 30px;
+    display: inline-block;
+    line-height: 1.4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.linha4{
+    /* font-weight: 600; */
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fefae0;
+    /* text-decoration: none; */
+    font-weight: 100;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+    background-color: #55612f;
+    
+
+    padding: 16px 40px;
+    border-radius: 38px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     
+}
+
+/* ----------- FOOTER----------- */
+
+footer{
+    background-color: #55612F;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+/* .nav_footer{
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.footer_container span,
+.nav_footer a{
+     font-family: "Hanken Grotesk", sans-serif;
+}
+
+.linha_1{
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+
+}
+
+.linha_2{
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.linha_3{
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.linha_4{
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
