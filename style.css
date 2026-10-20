@@ -58,8 +58,8 @@ h1 {
     padding-block: 80px 70px;
     height: 600px;
     background-image:
-        linear-gradient(90deg, #2E150D, #2E150D 40%, #2e150d20 60%),
-        url("./img/image_688dc7.webp");
+        linear-gradient(90deg, #2E150D, #2E150D 30%, #2e150d20 60%),
+        url("./img/11111.jpg");
     background-position: right;
     background-repeat: no-repeat;
 }
@@ -138,12 +138,54 @@ h1 {
     margin-top: 20px;
 }
 
+.strip {
+    background: #55612f;
+    color: #FEFAE0;
+}
 
-/* ----------- FOOTER----------- */
-
-footer {
-    background-color: #55612F;
+.strip li {
     display: flex;
     align-items: center;
-    height: 120px;
+    gap: 18px;
+    padding-inline: 0 28px;
+    min-width: 0;
+    height: 38px;
+    box-sizing: border-box;
+
 }
+
+.strip_li_li {
+    border-left: 1px solid rgba(254, 250, 224, .28);
+    padding-left: 42px;
+}
+
+.strip li:last-child {
+    justify-content: flex-start;
+}
+
+
+.strip ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    height: 100px;
+    align-items: center;
+}
+
+li {
+    display: list-item;
+    unicode-bidi: isolate;
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1580px;
+    margin-inline: auto;
+    padding-inline: clamp(20px, 8.9vw, 170px);
+}
+
+
+
+
